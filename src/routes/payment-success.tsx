@@ -60,8 +60,8 @@ function PaymentSuccessPage() {
   const [paymentRequired, setPaymentRequired] = useState(
     search.paymentRequired === "true" || search.paymentRequired === true,
   );
-  const [upiId, setUpiId] = useState("jiwika@ybl");
-  const [amount, setAmount] = useState(99);
+  const [upiId, setUpiId] = useState<string>("");
+  const [amount, setAmount] = useState<number>(0);
   const [qrCodeImage, setQrCodeImage] = useState("");
   const [upiTxnId, setUpiTxnId] = useState("");
   const [copiedUpi, setCopiedUpi] = useState(false);
