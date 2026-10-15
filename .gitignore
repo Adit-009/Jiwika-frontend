@@ -14,6 +14,8 @@ jspm_packages/
 # Build outputs
 dist/
 dist-ssr/
+.output/
+.nitro/
 *.local
 
 # Keep track of .env files locally but do not commit them

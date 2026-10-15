@@ -15,9 +15,9 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
     "@tanstack/react-query": "^5.83.0",
-    "@tanstack/react-router": "^1.168.60",
-    "@tanstack/react-start": "^1.168.60",
-    "@tanstack/router-plugin": "^1.168.60",
+    "@tanstack/react-router": "^1.168.46",
+    "@tanstack/react-start": "^1.169.2",
+    "@tanstack/router-plugin": "^1.168.46",
     "clsx": "^2.1.1",
     "framer-motion": "^12.40.0",
     "jspdf": "^4.2.1",
